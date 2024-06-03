@@ -1,0 +1,144 @@
+body { 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-image:url(images/cocktails.jpg) ;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    margin: 0 auto; 
+    margin-top: 250px;
+    padding: 60px;
+    font-size: 50px;
+    border: black;
+    border-style: double;
+    border-radius: 27px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.button2 { 
+    padding: 60px;
+    font-size: 50px;
+    border: black;
+    border-style: double;
+    border-radius: 27px;
+    background-color: black; 
+    color: white;
+    font-size: 20px;
+}
+
+
+.cocktail-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 150px; 
+    background-color: rgba(255, 255, 255, 0.837);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.cocktail-info {
+    text-align: center;
+    margin: 0 auto; 
+    width: 50%; 
+    margin-top: 100px;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.837);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cocktail-info p {
+    margin-top: 10px; 
+}
+
+.h1 { 
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.802);
+    color: white;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.h2 { 
+    text-align: center;
+   
+    font-weight:200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 550;
+}
+
+.index1body { 
+    height: 100%;
+    margin: 0;
+    background-image:url(images/cocktails.jpg) ;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+}
+
+.h1index { 
+    text-align: center;
+    padding: 100px;
+    color: black;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.h2index { 
+    text-align: center;
+    padding: 50px;
+    color: black;
+    font-size: 30px;
+    
+    
+}
+
+.tekstvlakP { 
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.centreer-leeftijdchecker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="number"], button {
+    padding: 15px 20px; 
+    font-size: 20px; 
+    width: 300px; 
+    border: 20px solid #000; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+button {
+    cursor: pointer; 
+    background-color: #eb711b; 
+    color: white; 
+    border: none; 
+}
+
+button:hover {
+    background-color: #1b5fbe; 
+}
